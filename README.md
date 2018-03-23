@@ -8,7 +8,7 @@
 * 开发者进入开发阶段，完成后在`swoole-src`发起`pull request`
 * 该`pr`需要经过多次`review`，并最终被`merge`，该提案标记为`已实现`
 * 该`pr`未能通过`code review`，没有被`merge`，该提案被标记为`未实现`
-* 接受并最终实现的提案按照自增给予`RFC-XXXX`编号
+* 接受并最终实现的提案按照给予`RFC-XXXX`唯一编号
 
 投票
 ----
