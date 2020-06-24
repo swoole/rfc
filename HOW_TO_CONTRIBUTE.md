@@ -65,7 +65,7 @@ suod make install
 
 #### 目录结构
 
-* `src/` : 与`php`无关的内核模块
+* `src/` : 与`php`无关的内核模块源文件
 * `include/` : 头文件
 * `core-tests` : 内核测试文件，基于`googletest`
 * `tests` : `PHP`测试文件
