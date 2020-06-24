@@ -38,6 +38,9 @@ git@github.com:{your_name}/swoole-src.git
 * `/usr/local/include/php/TSRM`
 * `/usr/local/include/php/Zend`
 
+![include路径](1.png)
 
 
 配置工程的预定义宏，加入`HAVE_CONFIG_H`
+
+![宏](2.png)
