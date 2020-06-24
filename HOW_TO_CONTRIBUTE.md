@@ -1,9 +1,9 @@
 如何参与贡献 Swoole 开源项目
 =====
 
-准备工作
+技能需求
 ----
-* `C++11`相关知识
+* `C++11`编程
 * 了解`Linux`系统相关`API`知识，如`epoll`、`socket`、`fork`、`pthread`，具备`Unix`环境编程能力
 * 了解`PHP` `ZendVM`的基本原理，了解`php-src`
 
@@ -71,4 +71,6 @@ suod make install
 * `tests` : `PHP`测试文件
 * `examples` : 示例文件
 * `swoole_*.cc` : `PHP`扩展相关源文件
+
+
 
