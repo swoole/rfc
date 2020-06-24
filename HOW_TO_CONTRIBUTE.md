@@ -18,7 +18,9 @@ sudo apt install php-dev gcc g++ cmake autoconf curl openssl
 建议在`github`上`fork` `swoole-src` 到个人空间，然后`git clone`到本地
 
 ```shell
+cd ~/workspace/
 git@github.com:{your_name}/swoole-src.git
+cd swoole-src
 ```
 
 开发环境
@@ -44,3 +46,29 @@ git@github.com:{your_name}/swoole-src.git
 配置工程的预定义宏，加入`HAVE_CONFIG_H`
 
 ![宏](2.png)
+
+#### 构建工程
+```shell
+cd ~/workspace/swoole-src
+phpize
+./configure
+make -j 8
+suod make install
+```
+
+#### 加载扩展
+修改`php.ini`在末尾加入`extension.so`
+
+项目开发
+---
+修改`swoole-src`下的`.h`和`.cc`源文件，重新编译安装，编写测试脚本，验证是否生效。
+
+#### 目录结构
+
+* `src/` : 与`php`无关的内核模块
+* `include/` : 头文件
+* `core-tests` : 内核测试文件，基于`googletest`
+* `tests` : `PHP`测试文件
+* `examples` : 示例文件
+* `swoole_*.cc` : `PHP`扩展相关源文件
+
