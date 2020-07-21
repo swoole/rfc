@@ -49,12 +49,12 @@ cd swoole-src
 * `/usr/local/include/php/TSRM`
 * `/usr/local/include/php/Zend`
 
-![include路径](1.png)
+![include路径](images/1.png)
 
 
 配置工程的预定义宏，加入`HAVE_CONFIG_H`
 
-![宏](2.png)
+![宏](images/2.png)
 
 #### 构建工程
 ```shell
@@ -66,7 +66,7 @@ suod make install
 ```
 
 #### 加载扩展
-修改`php.ini`在末尾加入`extension.so`
+修改`php.ini`在末尾加入`swoole.so`
 
 项目开发
 ---
@@ -80,6 +80,3 @@ suod make install
 * `tests` : `PHP`测试文件
 * `examples` : 示例文件
 * `swoole_*.cc` : `PHP`扩展相关源文件
-
-
-
