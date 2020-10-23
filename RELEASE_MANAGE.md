@@ -28,6 +28,7 @@
   - travis 分支普通测试
   - alpine 分支 musl 测试
   - valgrind 分支内存测试 (以没有 MEM 错误为准, 不一定能通过) (大概 50 分钟一次, 不一定能跑完)
+  - coverity_scan 分支Bug静态分析测试
 - NTS 和 ZTS 版本, ubuntu 和 linux 等 (较难验证, 偶尔 ZTS 会有编译问题)
 - travis 通过了以后, 再推送到 master (否则你不得不使用`--force`重置以保证我们有干净的 git log, 但这样可能会破坏其他维护者的 git 时间线)
 - 进入 github releases 页面, 发布新版本, 两个标题都是 vX.y.z 的格式, 把 package.xml 的更新内容帖进去, 使用 preview 查看是否正确, 每一个#和每一个@都必须是蓝色高亮的, 否则就是存在错误
