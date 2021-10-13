@@ -7,7 +7,8 @@ group owner 权限
 
 swoole-src 仓库
 ====
-* 非 owner 权限账户，不直接向 master 分支提交代码，需要先提交 pull request，获得其他 maintainer 支持，并且没有其他 owner 反对的情况下才可以 merge 到 master
+* 非 owner 权限账户，不直接向 master 分支提交代码，需要先提交 pull request
+* PR 经过其他 `maintainer` review 同意后并且没有其他 owner 反对的情况下才可以 merge 到 master
 
 repo admin/maintain/write 权限
 =====
