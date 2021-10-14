@@ -20,7 +20,7 @@ swoole-src 仓库
 * 非 `owner` 权限账户 `PR` 经过其他 `maintainer` `review` 并同意后并且没有其他 `owner` 明确反对的情况下才可以 `merge` 到 `master`
 * `owner` 权限账户重大变更必须提交 `PR`，经过其他 `maintainer` `review` 并且接受后才可以 merge 到 `master`
 * `owner` 权限账户认为是轻微修改而直接提交到 `master`，其他 `maintainer` 明确提出反对意见，则需要要 `revert commit`，并按照第三条约定重新发起流程
-* 若 `PR` 在超过 `3` 天以上时间没有其他 `maintainer`，发起者可以将此 `PR` 自行合并到 `master`
+* 若 `PR` 在超过 `3` 天以上时间没有其他 `maintainer` 进行 `review`，发起者可以将此 `PR` 自行合并到 `master`
 
 
 友好合作
