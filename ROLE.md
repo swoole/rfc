@@ -26,7 +26,7 @@ The swoole-src repository
 
 Friendly cooperation
 ----
-* Don't submit malicious code: virus, erotic, violent, politically sensitive, abusive code are forbidden apart from malicious overwriting of ohters' commit code.
+* Don't submit malicious content: virus, erotic, violent, politically sensitive, abusive code are forbidden apart from malicious overwriting of ohters' commit code.
 * Don't verbally attack, abuse or hurt other members.
 * Any account that violates the terms of friendly cooperation will remove all permissions and be removed from the swoole group members.
 
