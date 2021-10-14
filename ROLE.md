@@ -5,7 +5,7 @@ group owner 权限
 * 近1年内有效 commit 次数低于 10，移除 owner 权限
 * 修复拼写错误、优化错误信息语法词法问题不计为有效 commit
 
-swoole-src/library 仓库
+swoole-src 仓库
 ====
 * 非 owner 权限账户，不直接向 master 分支提交代码，需要先提交 `pull request` (以下简称`PR`)
 * 非 owner 权限账户 `PR` 经过其他 `maintainer` `review` 并同意后并且没有其他 `owner` 明确反对的情况下才可以 `merge` 到 `master`
