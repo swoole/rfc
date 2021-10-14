@@ -1,18 +1,18 @@
 
 maintainer
 ====
-* 持续 `1` 年向 `swoole group` 任意仓库贡献代码，并且有效 `commit` 次数高于 `10`，可以获得该仓库或对应 `team` 的 `admin/maintain/write` 操作权限 (以下简称`maintainer`权限)
+* 持续 `1` 年向 `swoole group` 任意仓库贡献代码，并且有效 `commit` 次数高于 `10`，可以获得该仓库或对应 `team` 的 `admin/maintain/write` 操作权限 (以下简称 `maintainer` )
 * 近 `1` 年内有效 `commit` 次数低于 `5`，移除 `maintainer` 权限
 
-> 修复拼写错误、优化错误信息、修复语法词法问题不计为有效 `commit`
+> 修复拼写错误、优化错误信息、修复语法词法问题不计为有效 `commit`  
+> 获得 `maintainer` 权限后会将此账户添加到 `swoole group members`  
 
 owner
 =====
 
-* 持续 `3` 年持续向 `swoole-src`、`library` 两个核心仓库主分支贡献代码，每年有效 `commit` 次数高于 `100` 可以获得 `owner` 权限
-* 近 `1` 年内有效 `commit` 次数低于 10，移除 owner 权限
-* 当 `members` 中只有最后一个 `owner` 时，该 `owner` 自动成为看守者，直到有新的 `maintainer` 通过条件 `1` 成为新的 `owner`
-
+* 拥有 `maintainer` 权限，并且持续 `3` 年向 `swoole-src`、`library` 两个核心仓库主分支贡献代码，每年有效 `commit` 次数高于 `100` 可以获得 `owner` 权限
+* 近 `1` 年内有效 `commit` 次数低于 `10`，移除 `owner` 权限，降级为 `maintainer` 权限
+* 当 `members` 中只有最后一个 `owner` 时，该 `owner` 自动成为看守者，不移除 `owner` 权限，直到有新的 `maintainer` 符合条件 `1` 成为新的 `owner`
 
 swoole-src 仓库
 ====
