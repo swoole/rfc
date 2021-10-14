@@ -2,6 +2,31 @@
 English
 ====
 
+Maintainer
+----
+* Continuously provides code to any base in swoole group for 1 year and its effective higher than 10 commit times, and can obtain the access to `admin/maintain/write` from the repo or its opposite team.
+* within 1 year effective commit times are lower than 5, remove access to maintainer.
+
+> Fix typo, fix grammar and wrong words, optimize error message, all above are not seen as effectual commit.
+> Add account to swoole group members as soon as get the access to maintainer
+
+Owner
+----
+* Obtained maintainer permission, meanwhile offer code for 3 years to these two core warehouse branches from swoole-src, library and annual effective commit times are higher than 100; then you become the owner.
+* Within 1 year effective commit times lower than 10, cancel the owner permission and downgrade to maintainer.
+* When group members only have 1 owner, the owner automatically becomes guard, not close the access until new maintainer upgrade to new owner
+
+swoole-src repository
+-----
+* Non-owner access account ,not directly submit code to branches of master, firstly provide pull request.(here in after referred to as PR)
+* The `PR` couldn't merge to master until other maintainers review and agree, meanwhile, other owners obviously disagree.
+* Big changes in owner's access account, must submit PR; not merge to master until other maintainer review and accept.
+* Tiny changes in owner's access account, can directly submit to master, however other maintainers obviously make averse opinions, need to `revert commit` and  restart a new process.
+* If PR is not reviewed by other maintainers beyond 3 days, then the operator self merge to master.
+
+Friendly cooperation
+----
+
 
 
 中文
