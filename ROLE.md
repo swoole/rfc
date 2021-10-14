@@ -12,7 +12,7 @@ Maintainer
 
 Owner
 ----
-* Obtained maintainer permission, meanwhile offer code for 3 years to these two core warehouse branches from swoole-src, library and annual effective commit times are higher than 100; then you become the owner.
+* Obtained maintainer permission, meanwhile offer code for 3 years to these two core warehouse branches from swoole-src, library and annual effective commit times are higher than 100, This account should be upgraded from maintainer to owner
 * Within 1 year effective commit times lower than 10, cancel the owner permission and downgrade to maintainer.
 * When group members only have 1 owner, the owner automatically becomes guard, not close the access until new maintainer upgrade to new owner
 
