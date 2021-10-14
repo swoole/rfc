@@ -16,7 +16,7 @@ Owner
 * Within 1 year effective commit times lower than 10, cancel the owner permission and downgrade to maintainer.
 * When group members only have 1 owner, the owner automatically becomes guard, not close the access until new maintainer upgrade to new owner
 
-swoole-src repository
+The swoole-src repository
 -----
 * Non-owner access account ,not directly submit code to branches of master, firstly provide pull request.(here in after referred to as PR)
 * The `PR` couldn't merge to master until other maintainers review and agree, meanwhile, other owners obviously disagree.
