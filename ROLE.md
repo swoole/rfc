@@ -7,7 +7,7 @@ Maintainer
 * Continuously provides code to any base in swoole group for 1 year and its effective higher than 10 commit times, and can obtain the access to `admin/maintain/write` from the repo or its opposite team.
 * within 1 year effective commit times are lower than 5, remove access to maintainer.
 
-> Fix typo, fix grammar and wrong words, optimize error message, all above are not seen as effectual commit.
+> Fix typo, fix grammar and wrong words, optimize error message, all above are not seen as effectual commit.  
 > Add account to swoole group members as soon as get the access to maintainer
 
 Owner
