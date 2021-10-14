@@ -4,7 +4,7 @@ English
 
 Maintainer
 ----
-* Continuously provides code to any base in swoole group for 1 year and its effective higher than 10 commit times, and can obtain the access to `admin/maintain/write` from the repo or its opposite team.
+* Continuously contribute code to any repo in swoole group for 1 year and its effective higher than 10 commit times, and can obtain the access to `admin/maintain/write` from the repo or its opposite team.
 * within 1 year effective commit times are lower than 5, remove maintainer permission.
 
 > Fix typo, fix grammar and wrong words, optimize error message, all above are not seen as effectual commit.  
