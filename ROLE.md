@@ -3,6 +3,7 @@ group owner 权限
 
 * 持续 3 年持续向 swoole-src、library 主分支贡献代码，每年有效 commit 次数高于 100
 * 近1年内有效 commit 次数低于 10，移除 owner 权限
+* 当 `members` 中只有最后一个 `owner` 时，该 `owner` 自动成为看守者，直到有新的 `maintainer` 满足要求成为新的 `owner`
 * 修复拼写错误、优化错误信息语法词法问题不计为有效 commit
 
 swoole-src 仓库
@@ -11,6 +12,7 @@ swoole-src 仓库
 * 非 owner 权限账户 `PR` 经过其他 `maintainer` `review` 并同意后并且没有其他 `owner` 明确反对的情况下才可以 `merge` 到 `master`
 * owner 权限账户重大变更必须提交 `PR`，经过其他 `maintainer` `review` 并且接受后才可以 merge 到 `master`
 * owner 权限账户认为是轻微修改而直接提交到 `master`，其他 `maintainer` 明确提出反对意见，则需要要 `revert commit`，并按照第三条约定重新发起流程
+* 若 `PR` 在超过 `3` 天以上时间没有其他 `maintainer`，发起者可以将此 `PR` 自行合并到 `master`
 
 
 其他仓库 admin/maintain/write 权限
