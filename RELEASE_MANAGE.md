@@ -33,8 +33,7 @@
 - travis 通过了以后, 再推送到 master (否则你不得不使用`--force`重置以保证我们有干净的 git log, 但这样可能会破坏其他维护者的 git 时间线)
 - 进入 github releases 页面, 发布新版本, 两个标题都是 vX.y.z 的格式, 把 package.xml 的更新内容帖进去, 使用 preview 查看是否正确, 每一个#和每一个@都必须是蓝色高亮的, 否则就是存在错误
 - 可以稍作观察, 再次确认无误后进入 pecl 官网发布压缩包 (由于 pecl 系统比较复杂, 发错了再删除可能有点风险)
-- 更新完成后需要同步 [Gitee](https://gitee.com/swoole/swoole) 的 tag
-- 发完版本第一个提交最好是改成下个版本的 alpha
+- 发完版本第一个提交最好是改成下个版本的 dev (可使用 [next-version.php](https://github.com/swoole/swoole-src/blob/master/tools/next-version.php) 脚本)
 - 将更新日志翻译到中文, 同步到 [wiki.swoole.com](https://wiki.swoole.com)
 
 ## 其他
