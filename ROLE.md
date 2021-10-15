@@ -37,7 +37,7 @@ Friendly cooperation
 maintainer
 -----
 * 持续 `1` 年向 `swoole group` 任意仓库贡献代码，并且有效 `commit` 次数高于 `10`，可以获得该仓库或对应 `team` 的 `admin/maintain/write` 操作权限 (以下简称 `maintainer` )
-* 近 `1` 年内有效 `commit` 次数低于 `5`，移除 `maintainer` 权限
+* 近 `1` 年内有效 `commit` 次数等于 `0` 时，移除 `maintainer` 权限
 
 > 修复拼写错误、优化错误信息、修复语法词法问题不计为有效 `commit`  
 > 获得 `maintainer` 权限后会将此账户添加到 `swoole group members`  
